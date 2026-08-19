@@ -156,4 +156,63 @@ class User extends Authenticatable
         return $this->hasMany(EmployeeDocument::class);
     }
 
+    public function menuAccesses()
+    {
+        return $this->hasMany(UserMenuAccess::class);
+    }
+
+    /**
+     * Saved menu decisions keyed by menu_key. Resolved once per request — the
+     * sidebar asks about every item on every page render.
+     *
+     * @var array<string, bool>|null
+     */
+    protected $menuAccessMap = null;
+
+    /**
+     * @return array<string, bool>
+     */
+    public function menuAccessMap(): array
+    {
+        if ($this->menuAccessMap === null) {
+            $this->menuAccessMap = $this->menuAccesses()
+                ->pluck('is_visible', 'menu_key')
+                ->map(fn ($visible) => (bool) $visible)
+                ->all();
+        }
+
+        return $this->menuAccessMap;
+    }
+
+    /**
+     * Whether this staff member should see a sidebar item.
+     *
+     * Falls back to the item's configured default when nothing has been saved
+     * for them, so accounts predating the feature keep their menu. Where the
+     * item also names a Bouncer ability, that still has to pass: per-staff
+     * access narrows what a role grants, it never widens it.
+     */
+    public function canSeeMenu(string $key): bool
+    {
+        $item = config('menu_access.items.' . $key);
+
+        if (!$item) {
+            return false;
+        }
+
+        if (!empty($item['ability']) && $this->cannot($item['ability'])) {
+            return false;
+        }
+
+        return $this->menuAccessMap()[$key] ?? (bool) ($item['default'] ?? true);
+    }
+
+    /**
+     * Clear the per-request cache after saving new decisions.
+     */
+    public function forgetMenuAccessMap(): void
+    {
+        $this->menuAccessMap = null;
+    }
+
 }

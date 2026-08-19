@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::controller(PurchaseRequisitionController::class)->prefix('/purchase_requisition')->as('purchase_requisition.')->middleware('auth')->group(function() {
-    Route::get('/index', 'index')->name('index')->middleware('can:purchase_requisition-index');
+    Route::get('/index', 'index')->name('index')->middleware(['can:purchase_requisition-index','menu.access']);
     Route::get('/create', 'create')->name('create')->middleware('can:purchase_requisition-create');
     Route::post('/store', 'store')->name('store')->middleware('can:purchase_requisition-store');
     Route::get('/show/{purchaseRequisition}', 'show')->name('show')->middleware('can:purchase_requisition-show');

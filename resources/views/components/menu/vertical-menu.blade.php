@@ -47,6 +47,7 @@
                     </div>
                 <div class="shadow-bottom"></div>
                 <ul class="list-unstyled menu-categories" id="accordionExample">
+                    @if(Auth::user()->canSeeMenu('dashboard'))
                     <li class="menu {{ Request::routeIs('index', 'managementIndex', 'user.profile') ? "active" : "" }}">
                         <a href="#dashboard" data-bs-toggle="collapse" aria-expanded="{{ Request::routeIs('index', 'managementIndex') ? "true" : "false" }}" class="dropdown-toggle">
                             <div class="">
@@ -70,6 +71,8 @@
                             @endif
                         </ul>
                     </li>
+                    @endif
+                    @if(Auth::user()->canSeeMenu('calendar'))
                     <li class="menu {{ Request::routeIs('calendar') ? 'active' : '' }}">
                         <a href="{{ route('calendar') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -78,6 +81,8 @@
                             </div>
                         </a>
                     </li>
+                    @endif
+                    @if(Auth::user()->canSeeMenu('attendance'))
                     <li class="menu {{ Request::routeIs('attendance') ? 'active' : '' }}">
                         <a href="{{ route('attendance') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -86,6 +91,8 @@
                             </div>
                         </a>
                     </li>
+                    @endif
+                    @if(Auth::user()->canSeeMenu('daily_scan'))
                     <li class="menu {{ Request::routeIs('daily_scan') ? 'active' : '' }}">
                         <a href="{{ route('daily_scan') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -94,6 +101,8 @@
                             </div>
                         </a>
                     </li>
+                    @endif
+                    @if(Auth::user()->canSeeMenu('announcement'))
                     <li class="menu {{ Request::routeIs('notification.indexUser') ? 'active' : '' }}">
                         <a href="{{ route('notification.indexUser') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -102,7 +111,8 @@
                             </div>
                         </a>
                     </li>
-                    @can('leave-index')
+                    @endif
+                    @if(Auth::user()->canSeeMenu('leave'))
                     <li class="menu {{ Request::routeIs('leave.index', 'leave.create', 'leave.edit') ? 'active' : '' }}">
                         <a href="{{ route('leave.index') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -111,8 +121,8 @@
                             </div>
                         </a>
                     </li>
-                    @endcan
-                    @can('purchase_requisition-index')
+                    @endif
+                    @if(Auth::user()->canSeeMenu('purchase_requisition'))
                     <li class="menu {{ Request::routeIs('purchase_requisition.index', 'purchase_requisition.create', 'purchase_requisition.edit', 'purchase_requisition.createClaim') ? 'active' : '' }}">
                         <a href="{{ route('purchase_requisition.index') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -121,8 +131,8 @@
                             </div>
                         </a>
                     </li>
-                    @endcan
-                    @can('claim-index')
+                    @endif
+                    @if(Auth::user()->canSeeMenu('claim'))
                     <li class="menu {{ Request::routeIs('claim.index', 'claim.create', 'claim.edit') ? 'active' : '' }}">
                         <a href="{{ route('claim.index') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -131,8 +141,8 @@
                             </div>
                         </a>
                     </li>
-                    @endcan
-                    @can('overtime-index')
+                    @endif
+                    @if(Auth::user()->canSeeMenu('overtime'))
                     <li class="menu {{ Request::routeIs('overtime.index', 'overtime.create', 'overtime.edit') ? 'active' : '' }}">
                         <a href="{{ route('overtime.index') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
@@ -141,7 +151,7 @@
                             </div>
                         </a>
                     </li>
-                    @endcan
+                    @endif
                     <!-- <li class="menu {{ Request::routeIs('handbook.indexUser') ? 'active' : '' }}">
                         <a href="{{ route('handbook.indexUser') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">

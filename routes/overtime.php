@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::controller(OverTimeController::class)->prefix('/overtime')->as('overtime.')->middleware('auth')->group(function() {
-    Route::get('/index', 'index')->name('index')->middleware('can:overtime-index');
+    Route::get('/index', 'index')->name('index')->middleware(['can:overtime-index','menu.access']);
     Route::get('/create', 'create')->name('create')->middleware('can:overtime-create');
     Route::post('/store', 'store')->name('store')->middleware('can:overtime-store');
     Route::get('/show/{overtime}', 'show')->name('show')->middleware('can:overtime-show');

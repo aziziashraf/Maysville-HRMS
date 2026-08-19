@@ -47,8 +47,8 @@
                             <h5 class="card-title mb-1">{{ $employee->name }}</h5>
                             <div class="text-muted">
                                 {{ $employee->staff_id ? 'Staff ID '.$employee->staff_id.' · ' : '' }}
-                                {{ $employee->department->name ?? 'No department' }}
-                                {{ $employee->position->name ?? '' }}
+                                {{ $employee->department?->department_name ?? 'No department' }}
+                                {{ $employee->position?->name ?? '' }}
                             </div>
                         </div>
                         @can('employee_document-create')

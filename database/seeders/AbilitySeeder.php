@@ -199,6 +199,9 @@ class AbilitySeeder extends Seeder
             [ 'name' => 'employee_document_type-store',      'title' => 'Employee Information Type Store'],
             [ 'name' => 'employee_document_type-edit',       'title' => 'Employee Information Type Edit'],
             [ 'name' => 'employee_document_type-destroy',    'title' => 'Employee Information Type Destroy'],
+
+            [ 'name' => 'employee_menu_access-edit',    'title' => 'Employee Menu Access Edit'],
+            [ 'name' => 'employee_menu_access-update',  'title' => 'Employee Menu Access Update'],
         ];
 
         // Retrieve all existing abilities from the database

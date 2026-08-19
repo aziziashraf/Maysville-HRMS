@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::controller(ClaimController::class)->prefix('/claim')->as('claim.')->middleware('auth')->group(function() {
-    Route::get('/index', 'index')->name('index')->middleware('can:claim-index');
+    Route::get('/index', 'index')->name('index')->middleware(['can:claim-index','menu.access']);
     Route::get('/create', 'create')->name('create')->middleware('can:claim-create');
     Route::post('/store', 'store')->name('store')->middleware('can:claim-store');
     Route::get('/show/{claim}', 'show')->name('show')->middleware('can:claim-show');

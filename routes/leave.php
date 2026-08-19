@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::controller(LeaveController::class)->prefix('/leave')->as('leave.')->middleware('auth')->group(function() {
-    Route::get('/index', 'index')->name('index')->middleware('can:leave-index');
+    Route::get('/index', 'index')->name('index')->middleware(['can:leave-index','menu.access']);
     Route::get('/create', 'create')->name('create')->middleware('can:leave-create');
     Route::post('/store', 'store')->name('store')->middleware('can:leave-store');
     Route::get('/show/{leave}', 'show')->name('show')->middleware('can:leave-show');

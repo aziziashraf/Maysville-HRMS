@@ -34,11 +34,11 @@ Route::group(['middleware' => 'auth'], function () {
 
 Auth::routes();
 
-Route::get('/index', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
-Route::get('/managementIndex', [App\Http\Controllers\HomeController::class, 'managementIndex'])->name('managementIndex');
-Route::get('/calendar', [App\Http\Controllers\HomeController::class, 'calendar'])->name('calendar');
-Route::get('/attendance', [App\Http\Controllers\HomeController::class, 'attendance'])->name('attendance');
-Route::get('/daily_scan', [App\Http\Controllers\HomeController::class, 'daily_scan'])->name('daily_scan');
+Route::get('/index', [App\Http\Controllers\HomeController::class, 'index'])->name('index')->middleware('menu.access');
+Route::get('/managementIndex', [App\Http\Controllers\HomeController::class, 'managementIndex'])->name('managementIndex')->middleware('menu.access');
+Route::get('/calendar', [App\Http\Controllers\HomeController::class, 'calendar'])->name('calendar')->middleware('menu.access');
+Route::get('/attendance', [App\Http\Controllers\HomeController::class, 'attendance'])->name('attendance')->middleware('menu.access');
+Route::get('/daily_scan', [App\Http\Controllers\HomeController::class, 'daily_scan'])->name('daily_scan')->middleware('menu.access');
 
 Route::get('forgot_pass_get', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forgot_pass_get');
 Route::post('/forgot_pass_post', [App\Http\Controllers\Auth\ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forgot_pass_post'); 

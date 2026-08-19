@@ -127,7 +127,7 @@
                                 <tr>
                                     <td>
                                         <a href="{{ route('employee_document.employee', $row->user_id) }}">{{ $row->user->name ?? '-' }}</a>
-                                        <div class="text-muted" style="font-size:12px;">{{ $row->user->department->name ?? '' }}</div>
+                                        <div class="text-muted" style="font-size:12px;">{{ $row->user->department?->department_name ?? '' }}</div>
                                     </td>
                                     <td>
                                         <strong>{{ $row->display_title }}</strong>
