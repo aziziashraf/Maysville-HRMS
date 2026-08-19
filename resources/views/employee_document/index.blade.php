@@ -16,6 +16,17 @@
     </x-slot>
     <!-- END GLOBAL MANDATORY STYLES -->
 
+    <!-- BREADCRUMB -->
+    <div class="page-meta">
+        <nav class="breadcrumb-style-one" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ route('employee.index') }}">Employee Management</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Employee Information</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /BREADCRUMB -->
+
     @php
         $expired = $documents->where('expiry_status', 'expired')->count();
         $expiring = $documents->where('expiry_status', 'expiring')->count();

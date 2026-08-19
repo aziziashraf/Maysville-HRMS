@@ -17,6 +17,7 @@
     <div class="page-meta">
         <nav class="breadcrumb-style-one" aria-label="breadcrumb">
             <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ route('employee.index') }}">Employee Management</a></li>
                 <li class="breadcrumb-item"><a href="{{ route('employee_document.index') }}">Employee Information</a></li>
                 <li class="breadcrumb-item active" aria-current="page">{{ $employee->name }}</li>
             </ol>

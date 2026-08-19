@@ -22,9 +22,20 @@
 
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Employee</h5>
-                    <div>
-                        <a href="{{ route('employee.create') }}" class="btn btn-primary mb-2 me-4">Add Employee</a>
+                    <h5 class="card-title">Employee Management</h5>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        @can('employee-create')
+                        <a href="{{ route('employee.create') }}" class="btn btn-primary">Add Employee</a>
+                        @endcan
+                        @can('employee_document-create')
+                        <a href="{{ route('employee_document.create') }}" class="btn btn-primary">Add Information</a>
+                        @endcan
+                        @can('employee_document-index')
+                        <a href="{{ route('employee_document.index') }}" class="btn btn-outline-primary">Employee Information</a>
+                        @endcan
+                        @can('employee_document_type-index')
+                        <a href="{{ route('employee_document_type.index') }}" class="btn btn-outline-primary">Manage Information Types</a>
+                        @endcan
                     </div>
                     <div class="simple-tab">
 

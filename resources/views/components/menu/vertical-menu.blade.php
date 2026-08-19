@@ -155,41 +155,16 @@
                         <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus"><line x1="5" y1="12" x2="19" y2="12"></line></svg><span>MANAGEMENT</span></div>
                     </li>
                     @endcanany
-                    @canany(['employee-list', 'employee-create', 'employee_document-index', 'employee_document-create'])
+                    @can('employee-list')
                     <li class="menu {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "active" : "" }}">
-                        <a href="#employee" data-bs-toggle="collapse" aria-expanded="{{ Request::routeIs('employee.index', 'employee.create', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "true" : "false" }}" class="dropdown-toggle">
+                        <a href="{{ route('employee.index') }}" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                                <span>Employee</span>
-                            </div>
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                <span>Employee Management</span>
                             </div>
                         </a>
-                        <ul class="collapse submenu list-unstyled {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "show" : "" }}" id="employee" data-bs-parent="#accordionExample">
-                            @can('employee-list')
-                            <li class="{{ Request::routeIs('employee.index') ? 'active' : '' }}">
-                                <a href="{{ route('employee.index') }}"> Employee Management </a>
-                            </li>
-                            @endcan
-                            @can('employee-create')
-                            <li class="{{ Request::routeIs('employee.create') ? 'active' : '' }}">
-                                <a href="{{ route('employee.create') }}"> Add Employee </a>
-                            </li>
-                            @endcan
-                            @can('employee_document-index')
-                            <li class="{{ Request::routeIs('employee_document.index', 'employee_document.employee') ? 'active' : '' }}">
-                                <a href="{{ route('employee_document.index') }}"> Employee Information </a>
-                            </li>
-                            @endcan
-                            @can('employee_document-create')
-                            <li class="{{ Request::routeIs('employee_document.create') ? 'active' : '' }}">
-                                <a href="{{ route('employee_document.create') }}"> Add Information </a>
-                            </li>
-                            @endcan
-                        </ul>
                     </li>
-                    @endcanany
+                    @endcan
                     @canany(['visitor-list', 'visitor-create'])
                     <li class="menu {{ Request::routeIs('visitor.index', 'visitor.create', 'visitor.edit') ? "active" : "" }}">
                         <a href="#visitor" data-bs-toggle="collapse" aria-expanded="{{ Request::routeIs('visitor.index', 'visitor.create', 'visitor.edit') ? "true" : "false" }}" class="dropdown-toggle">
