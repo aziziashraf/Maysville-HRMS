@@ -1,6 +1,6 @@
 {
   "resources/assets/js/apps/blog-create.js": {
-    "file": "assets/blog-create-8c857663.js",
+    "file": "assets/blog-create-450460a2.js",
     "isEntry": true,
     "src": "resources/assets/js/apps/blog-create.js"
   },
@@ -15,7 +15,7 @@
     "src": "resources/assets/js/apps/contact.js"
   },
   "resources/assets/js/apps/ecommerce-create.js": {
-    "file": "assets/ecommerce-create-4c3a9779.js",
+    "file": "assets/ecommerce-create-e939fa93.js",
     "isEntry": true,
     "src": "resources/assets/js/apps/ecommerce-create.js"
   },
@@ -40,7 +40,7 @@
     "src": "resources/assets/js/apps/invoice-list.js"
   },
   "resources/assets/js/apps/invoice-preview.js": {
-    "file": "assets/invoice-preview-45c4a74c.js",
+    "file": "assets/invoice-preview-e2653ea7.js",
     "isEntry": true,
     "src": "resources/assets/js/apps/invoice-preview.js"
   },
@@ -50,7 +50,7 @@
     "src": "resources/assets/js/apps/mailbox.js"
   },
   "resources/assets/js/apps/notes.js": {
-    "file": "assets/notes-1f93299d.js",
+    "file": "assets/notes-dacb9262.js",
     "isEntry": true,
     "src": "resources/assets/js/apps/notes.js"
   },
@@ -70,7 +70,7 @@
     "src": "resources/assets/js/apps/todoList.js"
   },
   "resources/assets/js/authentication/2-Step-Verification.js": {
-    "file": "assets/2-Step-Verification-8bdc1ab3.js",
+    "file": "assets/2-Step-Verification-d610c72d.js",
     "isEntry": true,
     "src": "resources/assets/js/authentication/2-Step-Verification.js"
   },
@@ -85,17 +85,17 @@
     "src": "resources/assets/js/authentication/form-2.js"
   },
   "resources/assets/js/components/custom-carousel.js": {
-    "file": "assets/custom-carousel-51fb668e.js",
+    "file": "assets/custom-carousel-5c6a16ae.js",
     "isEntry": true,
     "src": "resources/assets/js/components/custom-carousel.js"
   },
   "resources/assets/js/components/notification/custom-snackbar.js": {
-    "file": "assets/custom-snackbar-dee970a1.js",
+    "file": "assets/custom-snackbar-a4eb2d20.js",
     "isEntry": true,
     "src": "resources/assets/js/components/notification/custom-snackbar.js"
   },
   "resources/assets/js/custom.js": {
-    "file": "assets/custom-d1d15d8f.js",
+    "file": "assets/custom-92dde543.js",
     "isEntry": true,
     "src": "resources/assets/js/custom.js"
   },
@@ -110,17 +110,17 @@
     "src": "resources/assets/js/dashboard/dash_2.js"
   },
   "resources/assets/js/elements/custom-search.js": {
-    "file": "assets/custom-search-b7c663f5.js",
+    "file": "assets/custom-search-7837739a.js",
     "isEntry": true,
     "src": "resources/assets/js/elements/custom-search.js"
   },
   "resources/assets/js/elements/popovers.js": {
-    "file": "assets/popovers-9c38ff04.js",
+    "file": "assets/popovers-9ac54671.js",
     "isEntry": true,
     "src": "resources/assets/js/elements/popovers.js"
   },
   "resources/assets/js/elements/tooltip.js": {
-    "file": "assets/tooltip-ffe91b8a.js",
+    "file": "assets/tooltip-3dfcc9d9.js",
     "isEntry": true,
     "src": "resources/assets/js/elements/tooltip.js"
   },
@@ -130,12 +130,12 @@
     "src": "resources/assets/js/forms/bootstrap_validation/bs_validation_script.js"
   },
   "resources/assets/js/forms/custom-clipboard.js": {
-    "file": "assets/custom-clipboard-7c993e1b.js",
+    "file": "assets/custom-clipboard-c0eb569f.js",
     "isEntry": true,
     "src": "resources/assets/js/forms/custom-clipboard.js"
   },
   "resources/assets/js/pages/faq.js": {
-    "file": "assets/faq-7c2639a8.js",
+    "file": "assets/faq-aa932d48.js",
     "isEntry": true,
     "src": "resources/assets/js/pages/faq.js"
   },
@@ -160,7 +160,7 @@
     "src": "resources/assets/js/users/profile.js"
   },
   "resources/assets/js/widgets/_wActivityFive.js": {
-    "file": "assets/_wActivityFive-81002142.js",
+    "file": "assets/_wActivityFive-c708a3ba.js",
     "isEntry": true,
     "src": "resources/assets/js/widgets/_wActivityFive.js"
   },
@@ -701,6 +701,14 @@
     "file": "assets/masonry-blog-style-4-c4a60e45.jpeg",
     "src": "resources/images/masonry-blog-style-4.jpeg"
   },
+  "resources/images/maysville-avatar.png": {
+    "file": "assets/maysville-avatar-2385fc63.png",
+    "src": "resources/images/maysville-avatar.png"
+  },
+  "resources/images/maysville-logo.png": {
+    "file": "assets/maysville-logo-2ddecd1f.png",
+    "src": "resources/images/maysville-logo.png"
+  },
   "resources/images/maysville_logo.jpeg": {
     "file": "assets/maysville_logo-56321872.jpeg",
     "src": "resources/images/maysville_logo.jpeg"
@@ -1059,7 +1067,7 @@
     "src": "resources/js/app.js"
   },
   "resources/layouts/collapsible-menu/app.js": {
-    "file": "assets/app-a6f71fa8.js",
+    "file": "assets/app-00f5872d.js",
     "isEntry": true,
     "src": "resources/layouts/collapsible-menu/app.js"
   },
@@ -1069,7 +1077,7 @@
     "src": "resources/layouts/collapsible-menu/loader.js"
   },
   "resources/layouts/horizontal-dark-menu/app.js": {
-    "file": "assets/app-8b29d8ca.js",
+    "file": "assets/app-5f9c9296.js",
     "isEntry": true,
     "src": "resources/layouts/horizontal-dark-menu/app.js"
   },
@@ -1079,7 +1087,7 @@
     "src": "resources/layouts/horizontal-dark-menu/loader.js"
   },
   "resources/layouts/horizontal-light-menu/app.js": {
-    "file": "assets/app-5f9c9296.js",
+    "file": "assets/app-8b29d8ca.js",
     "isEntry": true,
     "src": "resources/layouts/horizontal-light-menu/app.js"
   },
@@ -1089,7 +1097,7 @@
     "src": "resources/layouts/horizontal-light-menu/loader.js"
   },
   "resources/layouts/modern-dark-menu/app.js": {
-    "file": "assets/app-00f5872d.js",
+    "file": "assets/app-a6f71fa8.js",
     "isEntry": true,
     "src": "resources/layouts/modern-dark-menu/app.js"
   },
@@ -1099,7 +1107,7 @@
     "src": "resources/layouts/modern-dark-menu/loader.js"
   },
   "resources/layouts/modern-light-menu/app.js": {
-    "file": "assets/app-ff5b23d9.js",
+    "file": "assets/app-784615ce.js",
     "isEntry": true,
     "src": "resources/layouts/modern-light-menu/app.js"
   },
@@ -1109,7 +1117,7 @@
     "src": "resources/layouts/modern-light-menu/loader.js"
   },
   "resources/rtl/assets/js/apps/blog-create.js": {
-    "file": "assets/blog-create-450460a2.js",
+    "file": "assets/blog-create-8c857663.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/apps/blog-create.js"
   },
@@ -1124,7 +1132,7 @@
     "src": "resources/rtl/assets/js/apps/contact.js"
   },
   "resources/rtl/assets/js/apps/ecommerce-create.js": {
-    "file": "assets/ecommerce-create-e939fa93.js",
+    "file": "assets/ecommerce-create-4c3a9779.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/apps/ecommerce-create.js"
   },
@@ -1149,7 +1157,7 @@
     "src": "resources/rtl/assets/js/apps/invoice-list.js"
   },
   "resources/rtl/assets/js/apps/invoice-preview.js": {
-    "file": "assets/invoice-preview-e2653ea7.js",
+    "file": "assets/invoice-preview-45c4a74c.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/apps/invoice-preview.js"
   },
@@ -1159,7 +1167,7 @@
     "src": "resources/rtl/assets/js/apps/mailbox.js"
   },
   "resources/rtl/assets/js/apps/notes.js": {
-    "file": "assets/notes-dacb9262.js",
+    "file": "assets/notes-1f93299d.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/apps/notes.js"
   },
@@ -1174,7 +1182,7 @@
     "src": "resources/rtl/assets/js/apps/todoList.js"
   },
   "resources/rtl/assets/js/authentication/2-Step-Verification.js": {
-    "file": "assets/2-Step-Verification-d610c72d.js",
+    "file": "assets/2-Step-Verification-8bdc1ab3.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/authentication/2-Step-Verification.js"
   },
@@ -1189,17 +1197,17 @@
     "src": "resources/rtl/assets/js/authentication/form-2.js"
   },
   "resources/rtl/assets/js/components/custom-carousel.js": {
-    "file": "assets/custom-carousel-5c6a16ae.js",
+    "file": "assets/custom-carousel-51fb668e.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/components/custom-carousel.js"
   },
   "resources/rtl/assets/js/components/notification/custom-snackbar.js": {
-    "file": "assets/custom-snackbar-a4eb2d20.js",
+    "file": "assets/custom-snackbar-dee970a1.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/components/notification/custom-snackbar.js"
   },
   "resources/rtl/assets/js/custom.js": {
-    "file": "assets/custom-92dde543.js",
+    "file": "assets/custom-d1d15d8f.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/custom.js"
   },
@@ -1214,17 +1222,17 @@
     "src": "resources/rtl/assets/js/dashboard/dash_2.js"
   },
   "resources/rtl/assets/js/elements/custom-search.js": {
-    "file": "assets/custom-search-7837739a.js",
+    "file": "assets/custom-search-b7c663f5.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/elements/custom-search.js"
   },
   "resources/rtl/assets/js/elements/popovers.js": {
-    "file": "assets/popovers-9ac54671.js",
+    "file": "assets/popovers-9c38ff04.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/elements/popovers.js"
   },
   "resources/rtl/assets/js/elements/tooltip.js": {
-    "file": "assets/tooltip-3dfcc9d9.js",
+    "file": "assets/tooltip-ffe91b8a.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/elements/tooltip.js"
   },
@@ -1234,12 +1242,12 @@
     "src": "resources/rtl/assets/js/forms/bootstrap_validation/bs_validation_script.js"
   },
   "resources/rtl/assets/js/forms/custom-clipboard.js": {
-    "file": "assets/custom-clipboard-c0eb569f.js",
+    "file": "assets/custom-clipboard-7c993e1b.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/forms/custom-clipboard.js"
   },
   "resources/rtl/assets/js/pages/faq.js": {
-    "file": "assets/faq-aa932d48.js",
+    "file": "assets/faq-7c2639a8.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/pages/faq.js"
   },
@@ -1259,7 +1267,7 @@
     "src": "resources/rtl/assets/js/users/account-settings.js"
   },
   "resources/rtl/assets/js/widgets/_wActivityFive.js": {
-    "file": "assets/_wActivityFive-c708a3ba.js",
+    "file": "assets/_wActivityFive-81002142.js",
     "isEntry": true,
     "src": "resources/rtl/assets/js/widgets/_wActivityFive.js"
   },
@@ -1319,7 +1327,7 @@
     "src": "resources/rtl/layouts/collapsible-menu/loader.js"
   },
   "resources/rtl/layouts/horizontal-dark-menu/app.js": {
-    "file": "assets/app-fd9485f6.js",
+    "file": "assets/app-72e7a970.js",
     "isEntry": true,
     "src": "resources/rtl/layouts/horizontal-dark-menu/app.js"
   },
@@ -1329,7 +1337,7 @@
     "src": "resources/rtl/layouts/horizontal-dark-menu/loader.js"
   },
   "resources/rtl/layouts/horizontal-light-menu/app.js": {
-    "file": "assets/app-72e7a970.js",
+    "file": "assets/app-fd9485f6.js",
     "isEntry": true,
     "src": "resources/rtl/layouts/horizontal-light-menu/app.js"
   },
@@ -1349,7 +1357,7 @@
     "src": "resources/rtl/layouts/vertical-dark-menu/loader.js"
   },
   "resources/rtl/layouts/vertical-light-menu/app.js": {
-    "file": "assets/app-784615ce.js",
+    "file": "assets/app-ff5b23d9.js",
     "isEntry": true,
     "src": "resources/rtl/layouts/vertical-light-menu/app.js"
   },
@@ -1719,12 +1727,12 @@
     "src": "resources/rtl/scss/dark/plugins/tomSelect/custom-tomSelect.scss"
   },
   "resources/rtl/scss/layouts/collapsible-menu/dark/structure.scss": {
-    "file": "assets/structure-6487f5a7.css",
+    "file": "assets/structure-4ef255d0.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/collapsible-menu/dark/structure.scss"
   },
   "resources/rtl/scss/layouts/collapsible-menu/light/structure.scss": {
-    "file": "assets/structure-8b427d2a.css",
+    "file": "assets/structure-0cac4d79.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/collapsible-menu/light/structure.scss"
   },
@@ -1749,17 +1757,17 @@
     "src": "resources/rtl/scss/layouts/horizontal-light-menu/light/structure.scss"
   },
   "resources/rtl/scss/layouts/vertical-dark-menu/dark/structure.scss": {
-    "file": "assets/structure-4369f676.css",
+    "file": "assets/structure-984fd735.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/vertical-dark-menu/dark/structure.scss"
   },
   "resources/rtl/scss/layouts/vertical-dark-menu/light/structure.scss": {
-    "file": "assets/structure-8d91ccf3.css",
+    "file": "assets/structure-986859d4.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/vertical-dark-menu/light/structure.scss"
   },
   "resources/rtl/scss/layouts/vertical-light-menu/dark/structure.scss": {
-    "file": "assets/structure-92cd0b24.css",
+    "file": "assets/structure-3a96eb24.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/vertical-light-menu/dark/structure.scss"
   },
@@ -1769,7 +1777,7 @@
     "src": "resources/rtl/scss/layouts/vertical-light-menu/light/loader.scss"
   },
   "resources/rtl/scss/layouts/vertical-light-menu/light/structure.scss": {
-    "file": "assets/structure-439e629c.css",
+    "file": "assets/structure-ef375cdd.css",
     "isEntry": true,
     "src": "resources/rtl/scss/layouts/vertical-light-menu/light/structure.scss"
   },
@@ -2494,57 +2502,57 @@
     "src": "resources/scss/dark/plugins/tomSelect/custom-tomSelect.scss"
   },
   "resources/scss/layouts/collapsible-menu/dark/structure.scss": {
-    "file": "assets/structure-c67eeace.css",
+    "file": "assets/structure-03722981.css",
     "isEntry": true,
     "src": "resources/scss/layouts/collapsible-menu/dark/structure.scss"
   },
   "resources/scss/layouts/collapsible-menu/light/structure.scss": {
-    "file": "assets/structure-f1a5c923.css",
+    "file": "assets/structure-5e0583f9.css",
     "isEntry": true,
     "src": "resources/scss/layouts/collapsible-menu/light/structure.scss"
   },
   "resources/scss/layouts/horizontal-dark-menu/dark/structure.scss": {
-    "file": "assets/structure-c44981c7.css",
+    "file": "assets/structure-6a259f0e.css",
     "isEntry": true,
     "src": "resources/scss/layouts/horizontal-dark-menu/dark/structure.scss"
   },
   "resources/scss/layouts/horizontal-dark-menu/light/structure.scss": {
-    "file": "assets/structure-a6ee0d67.css",
+    "file": "assets/structure-2576f8b4.css",
     "isEntry": true,
     "src": "resources/scss/layouts/horizontal-dark-menu/light/structure.scss"
   },
   "resources/scss/layouts/horizontal-light-menu/dark/structure.scss": {
-    "file": "assets/structure-67553853.css",
+    "file": "assets/structure-d187947f.css",
     "isEntry": true,
     "src": "resources/scss/layouts/horizontal-light-menu/dark/structure.scss"
   },
   "resources/scss/layouts/horizontal-light-menu/light/structure.scss": {
-    "file": "assets/structure-ad9bd43e.css",
+    "file": "assets/structure-1a73ebf1.css",
     "isEntry": true,
     "src": "resources/scss/layouts/horizontal-light-menu/light/structure.scss"
   },
   "resources/scss/layouts/modern-dark-menu/dark/structure.scss": {
-    "file": "assets/structure-80e9e955.css",
+    "file": "assets/structure-ba2ce25b.css",
     "isEntry": true,
     "src": "resources/scss/layouts/modern-dark-menu/dark/structure.scss"
   },
   "resources/scss/layouts/modern-dark-menu/light/structure.scss": {
-    "file": "assets/structure-c63611dc.css",
+    "file": "assets/structure-d202604d.css",
     "isEntry": true,
     "src": "resources/scss/layouts/modern-dark-menu/light/structure.scss"
   },
   "resources/scss/layouts/modern-light-menu/dark/structure.scss": {
-    "file": "assets/structure-2348c1c8.css",
+    "file": "assets/structure-424b8eec.css",
     "isEntry": true,
     "src": "resources/scss/layouts/modern-light-menu/dark/structure.scss"
   },
   "resources/scss/layouts/modern-light-menu/light/loader.scss": {
-    "file": "assets/loader-8384e98d.css",
+    "file": "assets/loader-09e63ab2.css",
     "isEntry": true,
     "src": "resources/scss/layouts/modern-light-menu/light/loader.scss"
   },
   "resources/scss/layouts/modern-light-menu/light/structure.scss": {
-    "file": "assets/structure-497ac545.css",
+    "file": "assets/structure-7bb22cf7.css",
     "isEntry": true,
     "src": "resources/scss/layouts/modern-light-menu/light/structure.scss"
   },
@@ -2559,12 +2567,12 @@
     "src": "resources/scss/light/assets/apps/blog-post.scss"
   },
   "resources/scss/light/assets/apps/chat.scss": {
-    "file": "assets/chat-a8563d1d.css",
+    "file": "assets/chat-ecce3ab8.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/chat.scss"
   },
   "resources/scss/light/assets/apps/contacts.scss": {
-    "file": "assets/contacts-d7f76955.css",
+    "file": "assets/contacts-04f7db4a.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/contacts.scss"
   },
@@ -2574,7 +2582,7 @@
     "src": "resources/scss/light/assets/apps/ecommerce-create.scss"
   },
   "resources/scss/light/assets/apps/ecommerce-details.scss": {
-    "file": "assets/ecommerce-details-8411ff6c.css",
+    "file": "assets/ecommerce-details-9d9a9a13.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/ecommerce-details.scss"
   },
@@ -2589,32 +2597,32 @@
     "src": "resources/scss/light/assets/apps/invoice-edit.scss"
   },
   "resources/scss/light/assets/apps/invoice-list.scss": {
-    "file": "assets/invoice-list-b4e73fa8.css",
+    "file": "assets/invoice-list-2e2dcbce.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/invoice-list.scss"
   },
   "resources/scss/light/assets/apps/invoice-preview.scss": {
-    "file": "assets/invoice-preview-5cae081c.css",
+    "file": "assets/invoice-preview-fd7991eb.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/invoice-preview.scss"
   },
   "resources/scss/light/assets/apps/mailbox.scss": {
-    "file": "assets/mailbox-3e2d1254.css",
+    "file": "assets/mailbox-0768aa3a.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/mailbox.scss"
   },
   "resources/scss/light/assets/apps/notes.scss": {
-    "file": "assets/notes-075fb27a.css",
+    "file": "assets/notes-6a7a2148.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/notes.scss"
   },
   "resources/scss/light/assets/apps/scrumboard.scss": {
-    "file": "assets/scrumboard-4db4870c.css",
+    "file": "assets/scrumboard-ea7c15f2.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/scrumboard.scss"
   },
   "resources/scss/light/assets/apps/todolist.scss": {
-    "file": "assets/todolist-43659394.css",
+    "file": "assets/todolist-cc62c617.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/apps/todolist.scss"
   },
@@ -2629,7 +2637,7 @@
     "src": "resources/scss/light/assets/authentication/auth-cover.scss"
   },
   "resources/scss/light/assets/components/accordions.scss": {
-    "file": "assets/accordions-0836c4e9.css",
+    "file": "assets/accordions-6192a2e9.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/accordions.scss"
   },
@@ -2644,12 +2652,12 @@
     "src": "resources/scss/light/assets/components/flags.scss"
   },
   "resources/scss/light/assets/components/font-icons.scss": {
-    "file": "assets/font-icons-51a44837.css",
+    "file": "assets/font-icons-41969d74.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/font-icons.scss"
   },
   "resources/scss/light/assets/components/list-group.scss": {
-    "file": "assets/list-group-8fe0ce4c.css",
+    "file": "assets/list-group-fa4a4c9e.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/list-group.scss"
   },
@@ -2659,17 +2667,17 @@
     "src": "resources/scss/light/assets/components/media_object.scss"
   },
   "resources/scss/light/assets/components/modal.scss": {
-    "file": "assets/modal-792ba9aa.css",
+    "file": "assets/modal-880858a3.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/modal.scss"
   },
   "resources/scss/light/assets/components/tabs.scss": {
-    "file": "assets/tabs-b002aa95.css",
+    "file": "assets/tabs-c3453533.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/tabs.scss"
   },
   "resources/scss/light/assets/components/timeline.scss": {
-    "file": "assets/timeline-2f4faf1c.css",
+    "file": "assets/timeline-aa5d1b7e.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/components/timeline.scss"
   },
@@ -2679,17 +2687,17 @@
     "src": "resources/scss/light/assets/custom.scss"
   },
   "resources/scss/light/assets/dashboard/dash_1.scss": {
-    "file": "assets/dash_1-0787316f.css",
+    "file": "assets/dash_1-72ac7213.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/dashboard/dash_1.scss"
   },
   "resources/scss/light/assets/dashboard/dash_2.scss": {
-    "file": "assets/dash_2-3a086a0e.css",
+    "file": "assets/dash_2-88237522.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/dashboard/dash_2.scss"
   },
   "resources/scss/light/assets/elements/alert.scss": {
-    "file": "assets/alert-9c43cfde.css",
+    "file": "assets/alert-72048ccb.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/alert.scss"
   },
@@ -2699,47 +2707,47 @@
     "src": "resources/scss/light/assets/elements/color_library.scss"
   },
   "resources/scss/light/assets/elements/custom-pagination.scss": {
-    "file": "assets/custom-pagination-c7eaa9f2.css",
+    "file": "assets/custom-pagination-514b5d2b.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/custom-pagination.scss"
   },
   "resources/scss/light/assets/elements/custom-tree_view.scss": {
-    "file": "assets/custom-tree_view-9aa29f73.css",
+    "file": "assets/custom-tree_view-bf81edff.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/custom-tree_view.scss"
   },
   "resources/scss/light/assets/elements/custom-typography.scss": {
-    "file": "assets/custom-typography-c01ca773.css",
+    "file": "assets/custom-typography-f09c13b2.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/custom-typography.scss"
   },
   "resources/scss/light/assets/elements/infobox.scss": {
-    "file": "assets/infobox-984f295e.css",
+    "file": "assets/infobox-7ba9ee97.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/infobox.scss"
   },
   "resources/scss/light/assets/elements/popover.scss": {
-    "file": "assets/popover-62bcc23d.css",
+    "file": "assets/popover-273997b1.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/popover.scss"
   },
   "resources/scss/light/assets/elements/search.scss": {
-    "file": "assets/search-1aa0d851.css",
+    "file": "assets/search-f09432cd.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/search.scss"
   },
   "resources/scss/light/assets/elements/tooltip.scss": {
-    "file": "assets/tooltip-3bb5d921.css",
+    "file": "assets/tooltip-308e7d43.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/elements/tooltip.scss"
   },
   "resources/scss/light/assets/forms/switches.scss": {
-    "file": "assets/switches-5e40968e.css",
+    "file": "assets/switches-f2e5cf2f.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/forms/switches.scss"
   },
   "resources/scss/light/assets/main.scss": {
-    "file": "assets/main-93bdbed6.css",
+    "file": "assets/main-15f597b5.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/main.scss"
   },
@@ -2759,17 +2767,17 @@
     "src": "resources/scss/light/assets/pages/error/style-maintanence.scss"
   },
   "resources/scss/light/assets/pages/faq.scss": {
-    "file": "assets/faq-3a90b491.css",
+    "file": "assets/faq-cbd23cf8.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/pages/faq.scss"
   },
   "resources/scss/light/assets/pages/knowledge_base.scss": {
-    "file": "assets/knowledge_base-810a64ec.css",
+    "file": "assets/knowledge_base-b8f04ad1.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/pages/knowledge_base.scss"
   },
   "resources/scss/light/assets/scrollspyNav.scss": {
-    "file": "assets/scrollspyNav-326657de.css",
+    "file": "assets/scrollspyNav-b7435472.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/scrollspyNav.scss"
   },
@@ -2779,12 +2787,12 @@
     "src": "resources/scss/light/assets/users/account-setting.scss"
   },
   "resources/scss/light/assets/users/user-profile.scss": {
-    "file": "assets/user-profile-742aeb6d.css",
+    "file": "assets/user-profile-ddf961ac.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/users/user-profile.scss"
   },
   "resources/scss/light/assets/widgets/modules-widgets.scss": {
-    "file": "assets/modules-widgets-1baf2021.css",
+    "file": "assets/modules-widgets-2f89c2d8.css",
     "isEntry": true,
     "src": "resources/scss/light/assets/widgets/modules-widgets.scss"
   },
@@ -2799,7 +2807,7 @@
     "src": "resources/scss/light/plugins/autocomplete/css/custom-autoComplete.scss"
   },
   "resources/scss/light/plugins/bootstrap-range-Slider/bootstrap-slider.scss": {
-    "file": "assets/bootstrap-slider-18a782b3.css",
+    "file": "assets/bootstrap-slider-2affa921.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/bootstrap-range-Slider/bootstrap-slider.scss"
   },
@@ -2814,42 +2822,42 @@
     "src": "resources/scss/light/plugins/clipboard/custom-clipboard.scss"
   },
   "resources/scss/light/plugins/drag-and-drop/dragula/example.scss": {
-    "file": "assets/example-33ed28a2.css",
+    "file": "assets/example-70409212.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/drag-and-drop/dragula/example.scss"
   },
   "resources/scss/light/plugins/editors/markdown/simplemde.min.scss": {
-    "file": "assets/simplemde.min-33c23695.css",
+    "file": "assets/simplemde.min-d563064b.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/editors/markdown/simplemde.min.scss"
   },
   "resources/scss/light/plugins/editors/quill/quill.snow.scss": {
-    "file": "assets/quill.snow-39f4029d.css",
+    "file": "assets/quill.snow-1ff20f5b.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/editors/quill/quill.snow.scss"
   },
   "resources/scss/light/plugins/filepond/custom-filepond.scss": {
-    "file": "assets/custom-filepond-9e9ad299.css",
+    "file": "assets/custom-filepond-684d7c7f.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/filepond/custom-filepond.scss"
   },
   "resources/scss/light/plugins/flatpickr/custom-flatpickr.scss": {
-    "file": "assets/custom-flatpickr-07d6db01.css",
+    "file": "assets/custom-flatpickr-769282b4.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/flatpickr/custom-flatpickr.scss"
   },
   "resources/scss/light/plugins/fullcalendar/custom-fullcalendar.scss": {
-    "file": "assets/custom-fullcalendar-0cfb004b.css",
+    "file": "assets/custom-fullcalendar-00ebec5b.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/fullcalendar/custom-fullcalendar.scss"
   },
   "resources/scss/light/plugins/loaders/custom-loader.scss": {
-    "file": "assets/custom-loader-c9b611a0.css",
+    "file": "assets/custom-loader-22a1492c.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/loaders/custom-loader.scss"
   },
   "resources/scss/light/plugins/noUiSlider/custom-nouiSlider.scss": {
-    "file": "assets/custom-nouiSlider-593bfd2f.css",
+    "file": "assets/custom-nouiSlider-e325093b.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/noUiSlider/custom-nouiSlider.scss"
   },
@@ -2864,7 +2872,7 @@
     "src": "resources/scss/light/plugins/perfect-scrollbar/perfect-scrollbar.scss"
   },
   "resources/scss/light/plugins/pricing-table/css/component.scss": {
-    "file": "assets/component-517e4fb9.css",
+    "file": "assets/component-cd589362.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/pricing-table/css/component.scss"
   },
@@ -2874,27 +2882,27 @@
     "src": "resources/scss/light/plugins/splide/custom-splide.min.scss"
   },
   "resources/scss/light/plugins/stepper/custom-bsStepper.scss": {
-    "file": "assets/custom-bsStepper-7daeb6e9.css",
+    "file": "assets/custom-bsStepper-cac32069.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/stepper/custom-bsStepper.scss"
   },
   "resources/scss/light/plugins/sweetalerts2/custom-sweetalert.scss": {
-    "file": "assets/custom-sweetalert-7039cdf5.css",
+    "file": "assets/custom-sweetalert-7bbb8dc2.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/sweetalerts2/custom-sweetalert.scss"
   },
   "resources/scss/light/plugins/table/datatable/custom_dt_custom.scss": {
-    "file": "assets/custom_dt_custom-6503c76e.css",
+    "file": "assets/custom_dt_custom-1c325a6d.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/table/datatable/custom_dt_custom.scss"
   },
   "resources/scss/light/plugins/table/datatable/custom_dt_miscellaneous.scss": {
-    "file": "assets/custom_dt_miscellaneous-bd219c3f.css",
+    "file": "assets/custom_dt_miscellaneous-e106d1e0.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/table/datatable/custom_dt_miscellaneous.scss"
   },
   "resources/scss/light/plugins/table/datatable/dt-global_style.scss": {
-    "file": "assets/dt-global_style-61725b7b.css",
+    "file": "assets/dt-global_style-c40d5c7f.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/table/datatable/dt-global_style.scss"
   },
@@ -2904,7 +2912,7 @@
     "src": "resources/scss/light/plugins/tagify/custom-tagify.scss"
   },
   "resources/scss/light/plugins/tomSelect/custom-tomSelect.scss": {
-    "file": "assets/custom-tomSelect-bc9d9f70.css",
+    "file": "assets/custom-tomSelect-77575c8a.css",
     "isEntry": true,
     "src": "resources/scss/light/plugins/tomSelect/custom-tomSelect.scss"
   }

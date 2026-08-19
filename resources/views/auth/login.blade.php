@@ -37,7 +37,7 @@
                                     @csrf
                                     <!-- center logo -->
                                     <div class="col-12 text-center">
-                                        <img src="{{Vite::asset('resources/images/logo-no-background.png')}}" alt="logo" class="img-fluid" style="width: 100%; padding: 15px;">
+                                        <img src="{{Vite::asset('resources/images/maysville-logo.png')}}" alt="logo" class="img-fluid" style="width: 100%; padding: 15px;">
                                     </div>
                                     <div class="col-md-12 mb-3">
                                         

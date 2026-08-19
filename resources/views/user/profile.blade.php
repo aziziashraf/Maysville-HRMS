@@ -249,7 +249,7 @@
             if ("{{Auth::user()->profile_image}}") {
                 userProfile.addFiles("{{asset('/storage/images/'.Auth::user()->profile_image)}}");
             } else {
-                userProfile.addFiles("{{Vite::asset('resources/images/logo-color.png')}}");
+                userProfile.addFiles("{{Vite::asset('resources/images/maysville-avatar.png')}}");
             }
         </script>
         

@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   letter-spacing: 0.0312rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
 
   &:before {
     content: "";
@@ -357,7 +357,7 @@ body {
 
   .navbar-item .nav-item {
     &.dropdown.show a.nav-link span {
-      color: #805dca !important;
+      color: #BF0000 !important;
 
       &.badge {
         background-color: #2196f3 !important;
@@ -374,7 +374,7 @@ body {
 
     &.dropdown {
       .nav-link:hover span {
-        color: #805dca !important;
+        color: #BF0000 !important;
       }
 
       .dropdown-menu {
@@ -1355,7 +1355,7 @@ body {
     }
 
     &.active > .dropdown-toggle {
-      background-color: #4361ee;
+      background-color: #1C3A72;
       
       svg, span {
         color: #fff;
@@ -1363,7 +1363,7 @@ body {
 
       &[aria-expanded="true"] {
         // background: rgba(0, 0, 0, 0.10);
-        background: #4361ee;
+        background: #1C3A72;
       }
 
       &:hover {
@@ -1371,7 +1371,7 @@ body {
 
         svg:not(.badge-icon) {
           color: #fff;
-          fill: #4361ee0a;
+          fill: #1C3A720a;
         }
       }
     }
@@ -1394,7 +1394,7 @@ body {
             fill: rgb(33 150 243 / 10%);
           }
 
-          background: #4361ee;
+          background: #1C3A72;
 
           span {
             color: #fff;
@@ -1405,7 +1405,7 @@ body {
   
             svg {
               color: #fff!important;
-              fill: #4361ee0a;
+              fill: #1C3A720a;
             }
           }
         }
@@ -1415,7 +1415,7 @@ body {
 
           svg:not(.badge-icon) {
             color: $primary;
-            fill: #4361ee0a;
+            fill: #1C3A720a;
           }
         }
 
@@ -1459,7 +1459,7 @@ body {
         color: $primary;
         &:before {          
           background: $primary!important;
-          box-shadow: 0 0 0px 2px #4361ee6e;
+          box-shadow: 0 0 0px 2px #1C3A726e;
           border: 1.9px solid #ffffff;
         }
       }
@@ -1468,22 +1468,22 @@ body {
     &.active {
       a {
 
-        color: #4361ee;
+        color: #1C3A72;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         font-weight: 500;
         
         &:before {
-          background-color: #4361ee;
+          background-color: #1C3A72;
         }
 
         &:hover {
-          color: #4361ee!important;
+          color: #1C3A72!important;
     
           &:before {
-            background: #4361ee !important;
-            box-shadow: 0 0 0px 2px rgba(67, 97, 238, 0.431);
-            border: 1.9px solid #4361ee;
+            background: #1C3A72 !important;
+            box-shadow: 0 0 0px 2px rgba(28, 58, 114, 0.431);
+            border: 1.9px solid #1C3A72;
           }
         }
       }
@@ -1502,7 +1502,7 @@ body {
           content: "";
           position: absolute;
           background-color: rgba(255, 255, 255, 0.07);
-          background-color: #4361ee;
+          background-color: #1C3A72;
           width: 15px;
           height: 42px;
           width: 100%;
@@ -1544,10 +1544,10 @@ body {
       }
 
       a[aria-expanded="true"] {
-        color: #4361ee;
+        color: #1C3A72;
 
         &:before {
-          background-color: #4361ee!important;
+          background-color: #1C3A72!important;
         }
         
       }
@@ -1580,11 +1580,11 @@ body {
 
         a {
           &:hover {
-            color: #4361ee;
+            color: #1C3A72;
 
             &:before {
-              background-color: #4361ee;
-              border: 1.9px solid #4361ee;
+              background-color: #1C3A72;
+              border: 1.9px solid #1C3A72;
               box-shadow: none;
             }
           }

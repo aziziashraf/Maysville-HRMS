@@ -93,7 +93,7 @@
                           @if(isset($notification->created_by) && !empty($notification->created_by) && !empty($notification->createdBy->profile_image))
                             <img src="{{asset('/storage/images/'.$notification->createdBy->profile_image)}}" alt="avatar" class="rounded-circle  bs-tooltip" data-bs-original-title="{{$notification->createdBy->name}}">
                           @else
-                            <img src="{{Vite::asset('resources/images/logo-color.png')}}" alt="avatar" class="rounded-circle">
+                            <img src="{{Vite::asset('resources/images/maysville-avatar.png')}}" alt="avatar" class="rounded-circle">
                           @endif
                       </div>
                     </div>

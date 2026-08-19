@@ -43,7 +43,7 @@
 
         &[aria-expanded="true"] {
           border-bottom: none;
-          background: #eceffe;
+          background: #E9EEF6;
         }
       }
 
@@ -91,13 +91,13 @@
 
     &:hover .card-header div svg.feather-thumbs-up {
       color: $primary;
-      fill: rgba(27, 85, 226, 0.2392156863);
+      fill: rgba(28, 58, 114, 0.2392156863);
     }
 
     .card-header div {
       &[aria-expanded="true"] svg.feather-thumbs-up {
         color: $primary;
-        fill: rgba(27, 85, 226, 0.2392156863);
+        fill: rgba(28, 58, 114, 0.2392156863);
       }
 
       span.faq-like-count {
@@ -110,7 +110,7 @@
 
     &:hover .card-header div span.faq-like-count, .card-header div[aria-expanded="true"] span.faq-like-count {
       color: $primary;
-      fill: rgba(27, 85, 226, 0.2392156863);
+      fill: rgba(28, 58, 114, 0.2392156863);
     }
 
     .card-body {

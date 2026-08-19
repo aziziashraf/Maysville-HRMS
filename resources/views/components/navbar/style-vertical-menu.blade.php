@@ -95,7 +95,7 @@
                                 @if(Auth::user()->profile_image)
                                     <img src="{{asset('/storage/images/'.Auth::user()->profile_image)}}" alt="avatar" class="rounded-circle">
                                 @else
-                                    <img src="{{Vite::asset('resources/images/logo-color.png')}}" alt="avatar" class="rounded-circle">
+                                    <img src="{{Vite::asset('resources/images/maysville-avatar.png')}}" alt="avatar" class="rounded-circle">
                                 @endif
                             </div>
                         </div>

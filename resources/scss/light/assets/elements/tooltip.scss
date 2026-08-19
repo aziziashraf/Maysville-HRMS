@@ -39,7 +39,7 @@
     
     .tooltip-primary .tooltip-inner {
       color: $primary;
-      background-color: #eceffe;
+      background-color: #E9EEF6;
     }
     
     .tooltip-success .tooltip-inner {
@@ -64,7 +64,7 @@
     
     .tooltip-secondary .tooltip-inner {
       color: $secondary;
-      background-color: #f2eafa;
+      background-color: #FBEAEA;
     }
     
     .tooltip-dark .tooltip-inner {
@@ -98,7 +98,7 @@
 
     .tooltip-primary {
       &.bs-tooltip-top .tooltip-arrow:before {
-        border-top-color: #eceffe;
+        border-top-color: #E9EEF6;
       }
     }
 
@@ -127,7 +127,7 @@
 
     .tooltip-secondary {
       &.bs-tooltip-top .tooltip-arrow:before {
-        border-top-color: #f2eafa;
+        border-top-color: #FBEAEA;
       }
     }
 

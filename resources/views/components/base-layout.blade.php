@@ -19,12 +19,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
     <title>{{ $pageTitle }}</title>
-    <link rel="icon" type="image/x-icon" href="{{Vite::asset('resources/images/logo-no-background.png')}}"/>
+    <link rel="icon" type="image/x-icon" href="{{Vite::asset('resources/images/maysville-avatar.png')}}"/>
     @vite(['resources/scss/layouts/modern-light-menu/light/loader.scss'])
 
     @vite(['resources/layouts/modern-light-menu/loader.js'])
     
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('plugins/bootstrap/bootstrap.min.css')}}">
     @vite(['resources/scss/light/assets/main.scss', 'resources/scss/dark/assets/main.scss'])
 

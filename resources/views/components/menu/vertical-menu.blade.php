@@ -17,12 +17,12 @@
                     <div class="nav-logo">
                         <div class="nav-item theme-logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{Vite::asset('resources/images/logo-no-background.png')}}" class="navbar-logo logo-dark" alt="logo">
-                                <img src="{{Vite::asset('resources/images/logo-no-background.png')}}" class="navbar-logo logo-light" alt="logo">
+                                <img src="{{Vite::asset('resources/images/maysville-logo.png')}}" class="navbar-logo logo-dark" alt="logo">
+                                <img src="{{Vite::asset('resources/images/maysville-logo.png')}}" class="navbar-logo logo-light" alt="logo">
                             </a>
                         </div>
                         <div class="nav-item theme-text">
-                            <a href="{{ route('home') }}" class="nav-link" style="font-size: 20px !important;">PXS HRMS</a>
+                            <a href="{{ route('home') }}" class="nav-link" style="font-size: 15px !important; white-space: nowrap;">Maysville HRMS</a>
                         </div>
                     </div>
                     <div class="nav-item sidebar-toggle">
@@ -37,7 +37,7 @@
                                 @if(Auth::user()->profile_image)
                                     <img src="{{asset('/storage/images/'.Auth::user()->profile_image)}}" alt="avatar" class="rounded-circle">
                                 @else
-                                    <img src="{{Vite::asset('resources/images/logo-color.png')}}" alt="avatar" class="rounded-circle">
+                                    <img src="{{Vite::asset('resources/images/maysville-avatar.png')}}" alt="avatar" class="rounded-circle">
                                 @endif
                             </div>
                             <div class="profile-content">

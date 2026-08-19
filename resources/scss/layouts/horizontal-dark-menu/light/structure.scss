@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   letter-spacing: 0.0312rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -379,7 +379,7 @@ body {
   }
   .navbar-item .nav-item {
     &.dropdown.show a.nav-link span {
-      color: #805dca !important;
+      color: #BF0000 !important;
 
       &.badge {
         background-color: #2196f3 !important;
@@ -396,7 +396,7 @@ body {
 
     &.dropdown {
       .nav-link:hover span {
-        color: #805dca !important;
+        color: #BF0000 !important;
       }
 
       .dropdown-menu {
@@ -669,7 +669,7 @@ body {
       font-size: 11px;
       letter-spacing: 1px;
       transform: none;
-      background-color: #805dca;
+      background-color: #BF0000;
       color: #fff;
     }
 
@@ -1373,7 +1373,7 @@ body[layout="full-width"] .sidebar-wrapper {
   
             svg {
               color: #25d5e4!important;
-              fill: #4361ee0a;
+              fill: #1C3A720a;
             }
           }
         }
@@ -1403,17 +1403,17 @@ body[layout="full-width"] .sidebar-wrapper {
     &.active {
       a {
 
-        color: #4361ee;
+        color: #1C3A72;
 
         &:before {
           background-color: #506690;
         }
 
         &:hover {
-          color: #4361ee!important;
+          color: #1C3A72!important;
     
           &:before {
-            background: #4361ee !important;
+            background: #1C3A72 !important;
           }
         }
       }
@@ -1520,10 +1520,10 @@ body[layout="full-width"] .sidebar-wrapper {
       }
 
       a[aria-expanded="true"] {
-        color: #4361ee;
+        color: #1C3A72;
 
         &:before {
-          background-color: #4361ee!important;
+          background-color: #1C3A72!important;
         }
         
       }
@@ -1543,12 +1543,12 @@ body[layout="full-width"] .sidebar-wrapper {
         }
 
         &.active a {
-          color: #4361ee!important;
+          color: #1C3A72!important;
         }
 
         a {
           &:hover {
-            color: #4361ee;
+            color: #1C3A72;
           }
         }
       }
