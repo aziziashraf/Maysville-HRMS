@@ -88,6 +88,68 @@
         </div>
       </div>
       <div class="col-12 col-md-4">
+
+        @php
+          $docsExpired  = $expiringDocuments->where('expiry_status', 'expired');
+          $docsExpiring = $expiringDocuments->where('expiry_status', 'expiring');
+        @endphp
+
+        <div class="widget" style="margin-bottom: 25px;">
+          <div class="widget-heading d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Certification &amp; Document Expiry</h5>
+            @can('employee_document-index')
+              <a href="{{ route('employee_document.index') }}" style="font-size: 12px;">View all</a>
+            @endcan
+          </div>
+          <div class="widget-content">
+            @if($expiringDocuments->isEmpty())
+              <p class="text-muted mb-0" style="font-size: 13px;">
+                Nothing expiring soon. All tracked employee documents are valid.
+              </p>
+            @else
+              <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Expired
+                  <a href="{{ route('employee_document.index', ['status' => 'expired']) }}" class="badge bg-danger" style="text-decoration:none;">{{ $docsExpired->count() }}</a>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Expiring soon
+                  <a href="{{ route('employee_document.index', ['status' => 'expiring']) }}" class="badge bg-warning" style="text-decoration:none;">{{ $docsExpiring->count() }}</a>
+                </li>
+              </ul>
+
+              <div style="max-height: 320px; overflow-y: auto;">
+                @foreach($expiringDocuments->take(15) as $doc)
+                  <div class="d-flex justify-content-between align-items-start py-2" style="border-bottom: 1px solid var(--border-color, #e0e6ed);">
+                    <div style="min-width: 0;">
+                      <div style="font-size: 13px; font-weight: 600;">{{ $doc->user->name ?? '-' }}</div>
+                      <div class="text-muted" style="font-size: 12px;">
+                        {{ $doc->display_title }}
+                        @if($doc->expiry_date)
+                          &middot; {{ $doc->expiry_date->format('d M Y') }}
+                        @endif
+                      </div>
+                    </div>
+                    <span class="badge badge-light-{{ $doc->expiry_badge_class }}" style="flex-shrink: 0; margin-left: 8px;">
+                      @if($doc->expiry_status === 'expired')
+                        Expired
+                      @else
+                        {{ $doc->days_to_expiry }}d
+                      @endif
+                    </span>
+                  </div>
+                @endforeach
+
+                @if($expiringDocuments->count() > 15)
+                  <div class="pt-2" style="font-size: 12px;">
+                    <a href="{{ route('employee_document.index') }}">+ {{ $expiringDocuments->count() - 15 }} more</a>
+                  </div>
+                @endif
+              </div>
+            @endif
+          </div>
+        </div>
+
         <div class="widget" style="margin-bottom: 25px;">
           <div class="widget-heading">
             <h5>Application Request Pending</h4>

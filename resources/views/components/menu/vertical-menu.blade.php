@@ -155,9 +155,9 @@
                         <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus"><line x1="5" y1="12" x2="19" y2="12"></line></svg><span>MANAGEMENT</span></div>
                     </li>
                     @endcanany
-                    @canany(['employee-list', 'employee-create'])
-                    <li class="menu {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit') ? "active" : "" }}">
-                        <a href="#employee" data-bs-toggle="collapse" aria-expanded="{{ Request::routeIs('employee.index', 'employee.create') ? "true" : "false" }}" class="dropdown-toggle">
+                    @canany(['employee-list', 'employee-create', 'employee_document-index', 'employee_document-create'])
+                    <li class="menu {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "active" : "" }}">
+                        <a href="#employee" data-bs-toggle="collapse" aria-expanded="{{ Request::routeIs('employee.index', 'employee.create', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "true" : "false" }}" class="dropdown-toggle">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
                                 <span>Employee</span>
@@ -166,7 +166,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                             </div>
                         </a>
-                        <ul class="collapse submenu list-unstyled {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit') ? "show" : "" }}" id="employee" data-bs-parent="#accordionExample">
+                        <ul class="collapse submenu list-unstyled {{ Request::routeIs('employee.index', 'employee.create', 'employee.edit', 'employee_document.index', 'employee_document.create', 'employee_document.edit', 'employee_document.employee') ? "show" : "" }}" id="employee" data-bs-parent="#accordionExample">
                             @can('employee-list')
                             <li class="{{ Request::routeIs('employee.index') ? 'active' : '' }}">
                                 <a href="{{ route('employee.index') }}"> Employee Management </a>
@@ -175,6 +175,16 @@
                             @can('employee-create')
                             <li class="{{ Request::routeIs('employee.create') ? 'active' : '' }}">
                                 <a href="{{ route('employee.create') }}"> Add Employee </a>
+                            </li>
+                            @endcan
+                            @can('employee_document-index')
+                            <li class="{{ Request::routeIs('employee_document.index', 'employee_document.employee') ? 'active' : '' }}">
+                                <a href="{{ route('employee_document.index') }}"> Employee Information </a>
+                            </li>
+                            @endcan
+                            @can('employee_document-create')
+                            <li class="{{ Request::routeIs('employee_document.create') ? 'active' : '' }}">
+                                <a href="{{ route('employee_document.create') }}"> Add Information </a>
                             </li>
                             @endcan
                         </ul>
@@ -340,7 +350,7 @@
                         </a>
                     </li>
                     @endcan
-                    @canany(['access-list', 'department-list', 'department-create', 'user-list', 'user-create', 'role-list', 'leave_type-index', 'position-index', 'event_type-index', 'claim_type-index', 'handbook_category-index'])
+                    @canany(['access-list', 'department-list', 'department-create', 'user-list', 'user-create', 'role-list', 'leave_type-index', 'position-index', 'event_type-index', 'claim_type-index', 'handbook_category-index', 'employee_document_type-index'])
                     <li class="menu menu-heading">
                         <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus"><line x1="5" y1="12" x2="19" y2="12"></line></svg><span>SETTING</span></div>
                     </li>
@@ -456,6 +466,16 @@
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
                                 <span>Claim Type</span>
+                            </div>
+                        </a>
+                    </li>
+                    @endcan
+                    @can('employee_document_type-index')
+                    <li class="menu {{ Request::routeIs('employee_document_type.index', 'employee_document_type.create', 'employee_document_type.edit') ? 'active' : '' }}">
+                        <a href="{{ route('employee_document_type.index') }}" aria-expanded="false" class="dropdown-toggle">
+                            <div class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <span>Employee Info Type</span>
                             </div>
                         </a>
                     </li>

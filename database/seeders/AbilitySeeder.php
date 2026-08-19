@@ -187,6 +187,18 @@ class AbilitySeeder extends Seeder
             // [ 'name' => 'purchase_requisition-requestIndex',    'title' => 'Purchase Requisition Request Index'],
             // [ 'name' => 'purchase_requisition-requestEdit',     'title' => 'Purchase Requisition Request Edit'],
             // [ 'name' => 'purchase_requisition-requestUpdate',   'title' => 'Purchase Requisition Request Update'],
+
+            [ 'name' => 'employee_document-index',      'title' => 'Employee Information Index'],
+            [ 'name' => 'employee_document-create',     'title' => 'Employee Information Create'],
+            [ 'name' => 'employee_document-store',      'title' => 'Employee Information Store'],
+            [ 'name' => 'employee_document-edit',       'title' => 'Employee Information Edit'],
+            [ 'name' => 'employee_document-destroy',    'title' => 'Employee Information Destroy'],
+
+            [ 'name' => 'employee_document_type-index',      'title' => 'Employee Information Type Index'],
+            [ 'name' => 'employee_document_type-create',     'title' => 'Employee Information Type Create'],
+            [ 'name' => 'employee_document_type-store',      'title' => 'Employee Information Type Store'],
+            [ 'name' => 'employee_document_type-edit',       'title' => 'Employee Information Type Edit'],
+            [ 'name' => 'employee_document_type-destroy',    'title' => 'Employee Information Type Destroy'],
         ];
 
         // Retrieve all existing abilities from the database

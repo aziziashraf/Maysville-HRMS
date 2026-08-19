@@ -151,4 +151,9 @@ class User extends Authenticatable
         return $this->hasMany(PurchaseRequisition::class);
     }
 
+    public function employeeDocuments()
+    {
+        return $this->hasMany(EmployeeDocument::class);
+    }
+
 }

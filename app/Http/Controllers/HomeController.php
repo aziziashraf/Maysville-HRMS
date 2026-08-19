@@ -14,6 +14,7 @@ use App\Models\LeaveType;
 use App\Models\Claim;
 use App\Models\Overtime;
 use App\Models\User;
+use App\Models\EmployeeDocument;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Bouncer;
@@ -464,8 +465,17 @@ class HomeController extends Controller
             ];
         }
 
+        // Certifications and other employee information approaching or past
+        // expiry. Each information type carries its own warning window.
+        $documentScopeDepartment = $user->can('show-own-department-only')
+            ? $user->department_id
+            : $department_id;
+
+        $expiringDocuments = EmployeeDocument::needingAttention($documentScopeDepartment);
+
         return view('managementHome')
             ->with('currentMonthName', $currentMonthName)
+            ->with('expiringDocuments', $expiringDocuments)
             ->with('ASdata', $ASdata)
             ->with('MAdata', $MAdata)
             ->with('LTDdata', $LTDdata)
