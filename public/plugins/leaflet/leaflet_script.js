@@ -8,7 +8,7 @@ var map = L.map('basic-map').setView([51.505, -0.09], 13);
 var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-        'Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+        'Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
 }).addTo(map);
 
 var marker = L.marker([51.5, -0.09]).addTo(map);
@@ -62,7 +62,7 @@ var interactiveMap = L.map('interactive-map').setView([37.8, -96], 4);
 var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-        'Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+        'Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
 }).addTo(interactiveMap);
 
 
