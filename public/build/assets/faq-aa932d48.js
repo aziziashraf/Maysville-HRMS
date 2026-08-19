@@ -1,0 +1,1 @@
+var s=document.querySelectorAll("#simple_faq .collapse, #simple_faq1 .collapse");for(let e=0;e<s.length;e++)s[e].addEventListener("show.bs.collapse",function(){this.parentNode.classList.add("show")}),s[e].addEventListener("hide.bs.collapse",function(){this.parentNode.classList.remove("show")});

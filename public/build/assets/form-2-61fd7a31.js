@@ -1,0 +1,1 @@
+var t=document.getElementById("toggle-password"),n=document.getElementsByClassName("form-content")[0],s=n.clientHeight,o=document.getElementsByClassName("form-image")[0];o&&(o.style.height=s+"px");t&&t.addEventListener("click",function(){var e=document.getElementById("password");e.type==="password"?e.type="text":e.type="password"});

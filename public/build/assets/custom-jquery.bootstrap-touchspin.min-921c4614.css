@@ -1,0 +1,1 @@
+body.layout-rtl #demo_vertical::-ms-clear,body.layout-rtl #demo_vertical2::-ms-clear{display:none}body.layout-rtl input#demo_vertical,body.layout-rtl input#demo_vertical2{border-top-left-radius:5px;border-bottom-left-radius:5px}
