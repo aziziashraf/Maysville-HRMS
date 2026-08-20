@@ -161,6 +161,11 @@ class User extends Authenticatable
         return $this->hasMany(UserMenuAccess::class);
     }
 
+    public function resume()
+    {
+        return $this->hasOne(EmployeeResume::class);
+    }
+
     /**
      * Saved menu decisions keyed by menu_key. Resolved once per request — the
      * sidebar asks about every item on every page render.

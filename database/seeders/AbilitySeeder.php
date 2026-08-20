@@ -202,6 +202,9 @@ class AbilitySeeder extends Seeder
 
             [ 'name' => 'employee_menu_access-edit',    'title' => 'Employee Menu Access Edit'],
             [ 'name' => 'employee_menu_access-update',  'title' => 'Employee Menu Access Update'],
+
+            [ 'name' => 'employee_resume-edit',    'title' => 'Employee Resume Edit'],
+            [ 'name' => 'employee_resume-update',  'title' => 'Employee Resume Update'],
         ];
 
         // Retrieve all existing abilities from the database

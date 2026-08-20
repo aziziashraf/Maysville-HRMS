@@ -51,11 +51,18 @@
                                 {{ $employee->position?->name ?? '' }}
                             </div>
                         </div>
-                        @can('employee_document-create')
-                        <a href="{{ route('employee_document.create', ['user_id' => $employee->id]) }}" class="btn btn-primary">
-                            Add Information
-                        </a>
-                        @endcan
+                        <div class="d-flex flex-wrap gap-2">
+                            @can('employee_resume-edit')
+                            <a href="{{ route('employee_resume.edit', $employee) }}" class="btn btn-outline-primary">
+                                Resume
+                            </a>
+                            @endcan
+                            @can('employee_document-create')
+                            <a href="{{ route('employee_document.create', ['user_id' => $employee->id]) }}" class="btn btn-primary">
+                                Add Information
+                            </a>
+                            @endcan
+                        </div>
                     </div>
 
                     @if($expired->count() || $expiring->count())
